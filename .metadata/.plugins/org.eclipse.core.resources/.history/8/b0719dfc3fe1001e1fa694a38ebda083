@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<header>
+			<h3>I.C.T</h3>
+			<ul>
+				<li><a href="">ballcap</a></li>
+				<li>buckethat<input type="number" id="kor" name="kor" required></li>
+				<li>beanie<input type="number" id="eng" name="eng" required></li>
+				<li>suncap<input type="number" id="math" name="math" required></li>
+			</ul>
+			
+		</header>
+		<section>
+		</section>
+		<footer>
+		</footer>
+	</div>
+</body>
+</html>
