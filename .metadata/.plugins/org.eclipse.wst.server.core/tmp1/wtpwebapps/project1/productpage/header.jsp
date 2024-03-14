@@ -21,12 +21,16 @@
 					<li><a href="">suncap</a></li>
 				</ul>
 			</div>
-				<input type="text" id="search" name="search">
-			<div id="span">
+			<form id="search" onsubmit="return false">
+				<input type="text" id="searchbar" type="text" placeholder="&nbsp;&nbsp;검 색">
+<!-- 					<button class="header_input_button">검색</button> -->
 				<span><i class="fa-solid fa-magnifying-glass"></i></span>
 				<span><i class="fa-brands fa-opencart"></i></span>
 	<!-- 			<i class="fa-solid fa-cart-shopping"></i> -->
 				<span><i class="fa-regular fa-user"></i></span>
+			</form>	
+			<div id="span">
+				
 			</div>
 		</div>	
 	</header>
