@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px;}
+.head{
+	width: 100%;
+}
+p{
+	display: flex;
+	
+}
+#container{
+	display: flex;
+	align-items: center;
+}
+h1 i{font-size: 30px;}
+ul{
+	list-style: none;
+	display: flex;
+}
+li a{
+	text-decoration: none;
+	display: flex;
+	margin-left: 30px;
+}
+li a:visited {color: black;}
+li a:hover {text-decoration: underline;}

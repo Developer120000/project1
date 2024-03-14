@@ -1,2 +1,13 @@
 1710336096941	Delete element
 1710336114970	Rename resource 'Productpage'
+1710407554210	Rename package 'com.ict.project1.css'
+1710407571226	Rename package 'com.ict.project1.css'
+1710407585991	Rename package 'com.ict.project1'
+1710407602544	Move file
+1710408449881	Move 'head.css' to 'WEB-INF'
+1710408454478	Move 'head.css' to 'webapp'
+1710408471047	Move 'head.css' to 'head'
+1710408477696	Rename resource 'head'
+1710408483467	Delete element
+1710408868542	Copy file
+1710408883606	Rename resource 'head.css'

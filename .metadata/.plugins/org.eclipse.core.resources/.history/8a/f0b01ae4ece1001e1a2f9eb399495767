@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px;}
+.head{
+	width: 100%;
+}
+#sitename{
+	display: flex;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 5px 20px;
+}
+#container{
+	display: flex;
+	align-items: center;
+}
+h1 i{font-size: 30px;}
+ul{
+	list-style: none;
+	display: flex;
+}
+li a{
+	text-decoration: none;
+	display: flex;
+	margin-left: 30px;
+	font-size: 25px;
+}
+li a:visited {color: black;}
+li a:hover {text-decoration: underline;}
+
+#search{
+	display: flex;
+}

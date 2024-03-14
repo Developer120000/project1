@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://kit.fontawesome.com/80123590ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div>
+		<header>
+			<h2>I.C.T</h2>
+			<ul>
+				<li><a href="">ballcap</a></li>
+				<li><a href="">buckethat</a></li>
+				<li><a href="">beanie</a></li>
+				<li><a href="">suncap</a></li>
+			</ul>
+			<input type="text" id="math" name="math" required>
+			<i class="fa-regular fa-user"></i>
+			<i class="fa-brands fa-opencart"></i>
+			<i class="fa-solid fa-cart-shopping"></i>
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</header>
+		<section>
+		</section>
+		<footer>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,9 +1,0 @@
-127.0.0.1 - - [13/Mar/2024:22:45:50 +0900] "GET / HTTP/1.1" 404 807
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:45:51 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 574
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:58:28 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 467
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:58:29 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 467
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:58:30 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 467
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:58:31 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 467
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:58:31 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 467
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:22:58:32 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 467
-0:0:0:0:0:0:0:1 - - [13/Mar/2024:23:03:19 +0900] "GET /project1/productpage/ballcap.jsp HTTP/1.1" 200 488
