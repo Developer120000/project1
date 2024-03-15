@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>I.C.T</title>
+<script src="https://kit.fontawesome.com/80123590ac.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../css/header.css">
+<!-- <script defer src="js 파일 위치"></script> -->
+</head>
+<body>
+<section id="header">
+        <div class="wrapper">
+            
+            <div class="title"><i class="fas fa-kiss-wink-heart"></i> DevilFront</div>
+            <ul class="lists">
+                <li>Commu</li>
+                <li>Gallery</li>
+                <li>QnA</li>
+                <li>AboutUs</li>
+            </ul>
+            <div class="log">Log In</div>
+        </div>
+    </section>
+</body>
+</html>

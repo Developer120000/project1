@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{margin: 0px; }
+#header{
+	
+/* 	height: 4.06rem; */
+}
+.wrapper{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	border-bottom: 1px solid black;
+	z-index: 5;
+}
+/* .title a{ */
+/* 	text-decoration: none; */
+/* 	font-size: 2.5rem; */
+/* 	font-weight: bold; */
+/* 	margin-left: 1rem; */
+/* 	color: black; */
+/* 	font-style: italic; */
+/* } */
+.category{
+	display: flex;
+/* 	margin-right: 50%; */
+	list-style: none;
+}
+.category li{
+	padding: 8px 12px;
+}
+li a{
+/* 	margin-right: 1.0rem; */
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+li a:visited {color: black;}
+li a:hover {text-decoration: underline;}
+
+.search{
+	display: flex;
+	padding-left: 0;
+/* 	width: 60%; */
+/* 	text-align: right; */
+}
+.searchbar{
+/* 	width: 30%; */
+/* 	margin-right: 5px;  */
+	padding: 5px;
+}
+.a1{
+/* 	margin-right: 10%; */
+}
+
+
+
+@media screen and (max-width:600px){
+	.wrapper{
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 8px 24px;
+	}
+	.category{
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.category li a{
+		width: 100%;
+		text-align: center;
+	}
+	.search{
+		display: none;
+		justify-content: center;
+		width: 100%;
+	}
+	.icon{
+		display: block;
+	}
+}
+
+@media screen and (max-width:1138px){
+	
+
+}
+
+
+@media screen and (max-width:800px){
+	
+
+}
+
+/* 1015px 이하 - suncap 사라짐 */
+@media screen and (max-width:590px){
+	
+	.header_second #s4{display: none;}
+}

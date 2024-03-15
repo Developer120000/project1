@@ -1,75 +1,97 @@
 @charset "UTF-8";
-*{margin: 0px; padding: 0px; box-sizing: border-box;}
+*{margin: 0px; }
 #header{
-	position: fixed;
+	
+/* 	height: 4.06rem; */
+}
+.wrapper{
 	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
 	border-bottom: 1px solid black;
-	height: 4rem;
 	z-index: 5;
 }
-#container{
-	display: flex;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-}
-#sitename{
-	display: flex;
+.title a{
+	text-decoration: none;
 	font-size: 2.5rem;
 	font-weight: bold;
-	margin: 0px 30px;
-	width: 10%;
+	margin-left: 1rem;
+	color: black;
+	font-style: italic;
+	display: inline-block;
 }
-#category{
-	width: 30%;
-}
-ul{
-	list-style: none;
+.category{
 	display: flex;
-	padding-right: 10%;
+/* 	margin-right: 50%; */
+	list-style: none;
 }
-li{
-	padding-right: 1rem;
+.category li{
+	padding: 8px 12px;
 }
 li a{
+/* 	margin-right: 1.0rem; */
+	font-size: 1.2rem;
 	text-decoration: none;
-	margin-left: 2.2rem;
-	margin-right: 2.0rem;
-	font-size: 20px;
 }
 li a:visited {color: black;}
 li a:hover {text-decoration: underline;}
 
-#search{
-	width: 60%;
-	text-align: right;
+.search{
+	display: flex;
+	padding-left: 0;
+	
+/* 	width: 60%; */
+/* 	text-align: right; */
 }
-#searchbar{
-	width: 30%;
-	margin-right: 5px; 
+.searchbar{
+/* 	width: 30%; */
+/* 	margin-right: 5px;  */
 	padding: 5px;
 }
-i{
-	margin-right: 2%;
+.a1{
+/* 	margin-right: 10%; */
+}
+.icon{display: none;}
+
+
+@media screen and (max-width:600px){
+	.wrapper{
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 8px 24px;
+	}
+	.category{
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.category li a{
+		width: 100%;
+		text-align: center;
+	}
+	.search{
+		display: none;
+		justify-content: center;
+		width: 100%;
+	}
+	.icon{
+		display: block;
+	}
 }
 
-
-/* 1248px 이하 - ballcap 사라짐 */
-@media screen and (max-width:1486px){
-	
-	.header_second #s1{display: none;}
-}
-
-/* 1015px 이하 - buckethat 사라짐 */
 @media screen and (max-width:1138px){
 	
-	.header_second #s2{display: none;}
+
 }
 
-/* 1015px 이하 - beanie 사라짐 */
+
 @media screen and (max-width:800px){
 	
-	.header_second #s3{display: none;}
+
 }
 
 /* 1015px 이하 - suncap 사라짐 */
