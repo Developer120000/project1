@@ -1,0 +1,32 @@
+//const heart = document.querySelector('.heart');
+//const heart2 = document.querySelector('.heart2');
+
+//heart.addEventListener('click', () => {
+////	heart2.classList.toggle('active');
+//	heart.style.display="none";
+//	heart2.style.display="block";
+//})
+//heart2.addEventListener('click', () => {
+//	heart2.style.display="none";
+//	heart.style.display="block";
+//})
+
+let heart = document.querySelectorAll('.heart');
+let heart2 = document.querySelectorAll('.heart2');
+
+let heartClick = false; // 초기에는 heart가 클릭되지 않은 상태
+
+heart.addEventListener('click', toggleHeart);
+heart2.addEventListener('click', toggleHeart);
+
+function toggleHeart() {
+    if (heartClick) {
+        heart.style.display = "none";
+        heart2.style.display = "block";
+    } else {
+        heart2.style.display = "none";
+        heart.style.display = "block";
+    }
+    
+    heartClick = !heartClick;
+}

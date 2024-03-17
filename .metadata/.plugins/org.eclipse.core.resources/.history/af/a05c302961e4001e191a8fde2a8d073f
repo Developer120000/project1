@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.pcontainer{
+	padding-top: 4.06rem;
+    width: 100%;
+    
+}
+.pwrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	line-height: 2rem;
+}
+
+.sbag1{
+	text-align: center;
+	margin: 2rem;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.sbag1 h3{
+	margin-bottom: 1rem;
+}
+.sbag2{
+	border: 1px solid black;
+	border-right: none;
+	border-left: none;
+	height: 15vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}

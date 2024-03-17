@@ -1,0 +1,12 @@
+const heart = document.querySelector('.heart');
+const heart2 = document.querySelector('.heart2');
+
+heart.addEventListener('click', () => {
+//	heart2.classList.toggle('active');
+	heart.style.display="none";
+	heart2.style.display="block";
+})
+heart2.addEventListener('click', () => {
+	heart2.style.display="none";
+	heart.style.display="block";
+})

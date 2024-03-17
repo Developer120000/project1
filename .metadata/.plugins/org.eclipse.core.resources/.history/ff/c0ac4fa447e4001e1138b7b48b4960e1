@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<%@ include file="header.jsp" %>
+<script src="https://kit.fontawesome.com/80123590ac.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../css/header.css">
+<script src="../js/header.js" defer></script>
+<link rel="stylesheet" href="../css/ballcap.css">
+<script src="../js/product.js" defer></script>
+<!-- <script defer src="js 파일 위치"></script> -->
+</head>
+<body>
+	<section class="ccontainer">
+		<div class="cwrapper">
+			<div class="newsslider">
+			    <div class="newsslide">회원 가입시 1000000만 포인트 증정!!!!!</div>
+			    <div class="newsslide">오후 3시 이전 주문시 당일 배송 출발</div>
+			    <div class="newsslide">매달 베스트 리뷰어에게는 소정의 상품이 지급됩니다</div>
+			</div>
+			
+</body>
+</html>

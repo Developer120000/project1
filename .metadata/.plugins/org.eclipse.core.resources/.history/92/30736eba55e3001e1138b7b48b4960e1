@@ -1,0 +1,20 @@
+const hamburger = document.querySelector('.hamburger');
+const category = document.querySelector('.category');
+
+hamburger.addEventListener('click', () => {
+    category.classList.toggle('active');
+})
+
+const b1 = document.querySelector('.b1');
+const searchbar = document.querySelector('.searchbar');
+
+b1.addEventListener('click', (e) => {
+	e.stopPropagation();
+    searchbar.classList.toggle('active');
+})
+
+//document.addEventListener('click', (event) => {
+//    if (!searchbar.contains(event.target) && !b1.contains(event.target)) {
+//        searchbar.classList.remove('active');
+//    }
+//})

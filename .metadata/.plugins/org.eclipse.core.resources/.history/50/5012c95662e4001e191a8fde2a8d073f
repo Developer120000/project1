@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.pcontainer{
+	padding-top: 4.06rem;
+    width: 100%;
+    
+}
+.pwrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	line-height: 2rem;
+}
+.sbag1{
+	margin: 2rem;
+}
+.sbag2{
+	border: 1px solid black;
+	border-right: none;
+	border-left: none;
+	text-align: center;
+/* 	margin: 2rem; */
+	height: 15vh;
+	width: 60%;
+/* 	display: flex; */
+}
+.sbag2 span{
+/* 	text-align: center; */
+	
+	margin: 0 auto;
+}

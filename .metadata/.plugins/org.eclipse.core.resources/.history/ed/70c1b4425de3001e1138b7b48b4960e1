@@ -1,0 +1,34 @@
+const hamburger = document.querySelector('.hamburger');
+const category = document.querySelector('.category');
+
+hamburger.addEventListener('click', () => {
+    category.classList.toggle('active');
+})
+
+document.addEventListener('click', (e) => {
+    if (!category.contains(e.target) && !hamburger.contains(e.target)) {
+        category.classList.remove('active');
+    }
+})
+
+
+const b1 = document.querySelector('.b1');
+const searchbar = document.querySelector('.searchbar');
+const res = document.querySelector('.res');
+
+b1.addEventListener('click', (e) => {
+	e.preventDefault();
+//	e.stopPropagation();
+    searchbar.classList.toggle('active');
+    res.classList.toggle('active');
+})
+
+document.addEventListener('click', (e) => {
+    if (!searchbar.contains(e.target) && !b1.contains(e.target)) {
+        searchbar.classList.remove('active');
+    }
+document.addEventListener('click', (e) => {
+    if (!res.contains(e.target) && !b1.contains(e.target)) {
+        res.classList.remove('active');
+    }
+})

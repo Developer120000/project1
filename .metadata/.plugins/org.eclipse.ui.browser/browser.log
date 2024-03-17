@@ -1,0 +1,22 @@
+
+3월 17, 2024 09:34:09.96 NEW SESSION
+3월 17, 2024 09:34:10.26 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 09:40:44.90 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 11:40:48.77 [13468:9080:0317/114048.770:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+3월 17, 2024 11:40:53.42 [13468:9080:0317/114053.424:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+3월 17, 2024 13:09:20.88 [13468:9080:0317/130920.889:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+3월 17, 2024 13:09:23.55 [13468:2980:0317/130923.553:ERROR:device_event_log_impl.cc(192)] [13:09:23.551] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+3월 17, 2024 13:33:12.12 [13468:2980:0317/133312.121:ERROR:device_event_log_impl.cc(192)] [13:33:12.121] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+3월 17, 2024 16:52:17.02 [13468:2980:0317/165217.027:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+3월 17, 2024 16:52:32.83 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 16:56:04.26 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 17:56:27.15 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 18:10:31.60 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 18:11:51.18 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 18:25:03.82 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 17, 2024 21:41:41.11 NEW SESSION
+3월 17, 2024 21:41:41.19 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 21:44:01.07 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 22:24:06.57 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 17, 2024 23:03:02.89 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

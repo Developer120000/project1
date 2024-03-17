@@ -1,0 +1,13 @@
+const hamburger = document.querySelector('.hamburger');
+const category = document.querySelector('.category');
+
+hamburger.addEventListener('click', () => {
+    category.classList.toggle('active');
+})
+
+const b1 = document.querySelector('.b1');
+const searchbar = document.querySelector('.searchbar');
+
+b1.addEventListener('click', () => {
+    searchbar.classList.toggle('active');
+})
