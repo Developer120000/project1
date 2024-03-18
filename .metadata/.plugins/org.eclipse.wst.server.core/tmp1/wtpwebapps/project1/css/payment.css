@@ -4,7 +4,6 @@
 .pcontainer{
 	padding-top: 4.06rem;
     width: 100%;
-    
 }
 .pwrapper{
 	display: flex;
@@ -38,12 +37,10 @@
 	border: 1px solid black;
 	border-right: none;
 	border-left: none;
-/* 	text-align: center; */
 	margin-bottom : 2rem;
 /* 	height: 15vh; */
 	width: 40%;
 	display: flex;
-/* 	justify-content: space-around; */
 	padding: 1rem 0;
 }
 .pform2{
@@ -60,7 +57,21 @@
 .ip2{
 	width: 32.7%;
 	height: 1.7rem;
+	
 }
+/* .ip3{ */
+/* 	width: 100%; */
+/* 	display: grid; */
+/* } */
+/* .ip3 > :not(label){ */
+/* 	width: 32.7%; */
+/* 	height: 1.7rem; */
+/* 	grid-template-rows: repeat(3, 100px); */
+/* } */
+/* .ip4{ */
+/* 	display: block; */
+/* 	width: 100%; */
+/* } */
 #uemail{
 	margin-bottom: 1rem;
 }
@@ -86,6 +97,7 @@
 	margin-bottom: 1rem;
 }
 .pay1{
+	display: flex;
 	border: 1px solid black;
 	border-left: none;
 	border-right: none;

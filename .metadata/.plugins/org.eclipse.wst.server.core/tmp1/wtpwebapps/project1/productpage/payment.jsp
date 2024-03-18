@@ -11,20 +11,9 @@
 <script src="../js/header.js" defer></script>
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <link rel="stylesheet" href="../css/payment.css">
+<script src="../js/payment.js" defer></script>
 </head>
 <body>
-<script>
-    const checkboxes = document.querySelectorAll('.single-option');
-    checkboxes.forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
-            checkboxes.forEach(cb => {
-                if (cb !== this) {
-                    cb.checked = false;
-                }
-            });
-        });
-    });
-</script>
 	<div class="pcontainer">
 		<div class="pwrapper">
 			<h3 class="sub1">쇼핑백</h3>
@@ -51,8 +40,8 @@
 						<input type="text" class="ip1" id="uaddr" name="uaddr1" ><br>
 						<input type="text" class="ip1" id="uaddrdetail" name="uaddrdetail1">
 					</li>
-					<li>
-						<label for="utelephone">일반전화</label>
+					<li class="ip3">
+						<label for="utelephone" class="ip4">일반전화</label>
 						<select name="utelephone1" class="ip2 ts1">
 							<option value="">02</option>
 							<option value="">031</option>
@@ -64,8 +53,8 @@
 						<input type="tel" class="ip2 ts1" id="utelephone" name="utelephone1" maxlength="4" required>
 						<input type="tel" class="ip2 ts1" id="utelephone2" name="utelephone2" maxlength="4" equired>
 					</li>
-					<li>
-						<label for="uphone">휴대전화</label> 
+					<li class="ip3">
+						<label for="uphone" class="ip4">휴대전화</label> 
 						<select name="uphone1" class="ip2 ts1">
 							<option value="">010</option>
 							<option value="">011</option>
@@ -74,8 +63,8 @@
 						<input type="tel" class="ip2 ts1" id="uphone" name="uphone1" maxlength="4" required>
 						<input type="tel" class="ip2 ts1" id="uphone2" name="uphone2" maxlength="4" equired>
 					</li>
-					<li>
-						<label for="uemail">이메일</label> 
+					<li class="ip3">
+						<label for="uemail" class="ip4">이메일</label> 
 						<input type="tel" class="ip2 ts1" id="uemail" name="uemail1" required>
 						<input type="tel" class="ip2 ts1" id="uemail2" name="uemail2" equired>
 						<select name="uemail3" class="ip2 ts1">
@@ -90,8 +79,10 @@
 			</form>
 			<h3 class="sub2">배송 정보</h3>
 			<form action="" method="post" class="dc">
-				<input type="checkbox" class="dc1"><span class="dc3">&nbsp;주문자 정보와 동일</span>
-				<input type="checkbox" class="dc1">&nbsp;새로운 배송지
+				<input type="checkbox" id="dc4" class="dc1">
+			    <label for="dc4" class="dc3">&nbsp;주문자 정보와 동일</label>
+			    <input type="checkbox" id="dc5" class="dc1">
+			    <label for="dc5" class="dc3">&nbsp;새로운 배송지</label>
 			</form>
 			<form action="#" method="post" class="pform">
 				<ul class="pform2">
@@ -109,8 +100,8 @@
 						<input type="text" class="ip1" id="uaddr2" name="uaddr2" ><br>
 						<input type="text" class="ip1" id="uaddrdetail2" name="uaddrdetail2">
 					</li>
-					<li>
-						<label for="utelephone3">일반전화</label>
+					<li class="ip3">
+						<label for="utelephone3" class="ip4">일반전화</label>
 						<select name="utelephone2" class="ip2 ts1">
 							<option value="">02</option>
 							<option value="">031</option>
@@ -122,8 +113,8 @@
 						<input type="tel" class="ip2 ts1" id="utelephone3" name="utelephone2" maxlength="4" required>
 						<input type="tel" class="ip2 ts1" id="utelephone4" name="utelephone2" maxlength="4" equired>
 					</li>
-					<li>
-						<label for="uphone3">휴대전화</label> 
+					<li class="ip3">
+						<label for="uphone3" class="ip4">휴대전화</label> 
 						<select name="uphone2" class="ip2 ts1">
 							<option value="">010</option>
 							<option value="">011</option>
@@ -140,7 +131,8 @@
 			</form>
 			<h3 class="sub2">결제 방식</h3>
 			<form action="" method="post" class="pay1">
-				<input type="checkbox" class="pay2">&nbsp;포인트 결제
+				<input type="checkbox" id="pay2">
+				<label for="pay2">&nbsp;포인트 결제</label>
 			</form>
 			<div class="text5">
 				<p>최소 결제 가능 금액은 결제 금액에서 배송비를 제외한 금액입니다.</p>
