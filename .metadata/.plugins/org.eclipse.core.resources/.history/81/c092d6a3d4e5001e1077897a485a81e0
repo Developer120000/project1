@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.qcontainer{
+	padding-top: 4.06rem;
+	width: 100%;
+/* 	margin-bottom: 2rem; */
+}
+.qwrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.qau{
+	width: 60%;
+	display: grid;
+	grid-template-columns: 5% 20% 55% 20%;
+/* 	justify-content: space-between; */
+}
+.qtitle{
+	margin: 2rem;	
+}
+.qau{
+	list-style: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 1rem 0;
+}
+.q1{
+	text-align: center;
+}
+.qwrite{
+	width: 100%;
+	height: 1.7rem;
+}
+.qwrite1{
+	min-width: 4rem;
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+}

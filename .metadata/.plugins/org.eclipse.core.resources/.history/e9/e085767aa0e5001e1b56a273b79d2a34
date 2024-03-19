@@ -1,0 +1,37 @@
+/* 체크박스 하나만 클릭가능하게 */
+//document.addEventListener("DOMContentLoaded", function() {
+//    let checkbox1 = document.querySelector('.dc1:nth-of-type(1)');
+//    let checkbox2 = document.querySelector('.dc1:nth-of-type(2)');
+//
+//    checkbox1.addEventListener('change', function() {
+//        if (checkbox1.checked) {
+//            checkbox2.checked = false;
+//        }
+//    });
+//
+//    checkbox2.addEventListener('change', function() {
+//        if (checkbox2.checked) {
+//            checkbox1.checked = false;
+//        }
+//    });
+//});
+
+/* 체크박스 하나만 클릭가능하고 라벨을 클릭해도 마찬가지 */
+document.addEventListener("DOMContentLoaded", function() {
+    let checkboxes = document.querySelectorAll('.dc1');
+
+    checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+            if (this.checked) {
+                checkboxes.forEach(function(otherCheckbox) {
+                    if (otherCheckbox !== checkbox) {
+                        otherCheckbox.checked = false;
+                    }
+                });
+            }
+        });
+    });
+});
+
+
+

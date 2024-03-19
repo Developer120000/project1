@@ -38,7 +38,6 @@
 	border-right: none;
 	border-left: none;
 	margin-bottom : 2rem;
-/* 	height: 15vh; */
 	width: 40%;
 	display: flex;
 	padding: 1rem 0;
@@ -55,22 +54,21 @@
 	height: 1.7rem;
 }
 .ip2{
-	width: 32.7%;
+	width: 31%;
 	height: 1.7rem;
-	
 }
 /* .ip3{ */
 /* 	width: 100%; */
 /* 	display: grid; */
 /* } */
-/* .ip3 > :not(label){ */
-/* 	width: 32.7%; */
-/* 	height: 1.7rem; */
-/* 	grid-template-rows: repeat(3, 100px); */
-/* } */
 /* .ip4{ */
 /* 	display: block; */
 /* 	width: 100%; */
+/* } */
+/* .ip3 > :not(label){ */
+/* 	width: 32.7%; */
+/* 	height: 1.7rem; */
+/* 	display: flex; */
 /* } */
 #uemail{
 	margin-bottom: 1rem;
@@ -79,6 +77,7 @@
 	background-color: black;
 	color: white;
 	border: none;
+	cursor: pointer;
 }
 .ts1{
 	text-align: center;
@@ -120,6 +119,17 @@
 	display: flex;
 	justify-content: space-between;
 }
+.pay3{
+	margin-right: 1rem;
+}
+.pp1{
+	width: 14%;
+	background-color: black;
+	color: white;
+	border: none;
+	height: 1.7rem;
+	cursor: pointer;
+}
 .ppay{
 	width: 40%;
 	height: 1.9rem;
@@ -131,7 +141,7 @@
 	background-color: black;
 	color: white;
 	border: none;
-	
+	cursor: pointer;
 }
 input[type="checkbox"]{
 	width: 1rem;

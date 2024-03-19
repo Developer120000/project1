@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.qcontainer{
+	padding-top: 4.06rem;
+	width: 100%;
+/* 	margin-bottom: 2rem; */
+}
+.qwrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+/* 	align-items: center; */
+	line-height: 2rem;
+}
+.qau{
+	width: 100%;
+	display: flex;
+/* 	justify-content: space-between; */
+}
+.qtitle{
+	margin: 0 auto;	
+}
+.qau{
+	list-style: none;
+}
+/* .qtitle{ */
+/* 	display: ; */
+/* } */

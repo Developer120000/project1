@@ -9,9 +9,9 @@
 <%@ include file="header.jsp" %>
 <link rel="stylesheet" href="../css/header.css">
 <script src="../js/header.js" defer></script>
-<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <link rel="stylesheet" href="../css/payment.css">
 <script src="../js/payment.js" defer></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </head>
 <body>
 	<div class="pcontainer">
@@ -32,13 +32,13 @@
 					</li>
 					<li>
 						<label for="upostcode">우편번호</label> 
-						<input type="text" class="ip2" id="upostcode" name="upostcode">
-						<input type="button" class="ip2" id="sb1" onclick="" value="검색하기">
+						<input type="text" id="sample6_postcode1" class="ip2">
+						<input type="button" class="ip2" id="sb1" onclick="sample6_execDaumPostcode1()" value="검색하기"><br>
 					</li>
 					<li>
 						<label for="uaddr">주소</label> 
-						<input type="text" class="ip1" id="uaddr" name="uaddr1" ><br>
-						<input type="text" class="ip1" id="uaddrdetail" name="uaddrdetail1">
+						<input type="text" id="sample6_address1" class="ip1"><br>
+						<input type="text" id="sample6_detailAddress1" class="ip1">
 					</li>
 					<li class="ip3">
 						<label for="utelephone" class="ip4">일반전화</label>
@@ -51,7 +51,7 @@
 							<option value="">018</option>
 						</select>
 						<input type="tel" class="ip2 ts1" id="utelephone" name="utelephone1" maxlength="4" required>
-						<input type="tel" class="ip2 ts1" id="utelephone2" name="utelephone2" maxlength="4" equired>
+						<input type="tel" class="ip2 ts1" id="utelephone2" name="utelephone2" maxlength="4" required>
 					</li>
 					<li class="ip3">
 						<label for="uphone" class="ip4">휴대전화</label> 
@@ -61,12 +61,12 @@
 							<option value="">018</option>
 						</select>
 						<input type="tel" class="ip2 ts1" id="uphone" name="uphone1" maxlength="4" required>
-						<input type="tel" class="ip2 ts1" id="uphone2" name="uphone2" maxlength="4" equired>
+						<input type="tel" class="ip2 ts1" id="uphone2" name="uphone2" maxlength="4" required>
 					</li>
 					<li class="ip3">
 						<label for="uemail" class="ip4">이메일</label> 
 						<input type="tel" class="ip2 ts1" id="uemail" name="uemail1" required>
-						<input type="tel" class="ip2 ts1" id="uemail2" name="uemail2" equired>
+						<input type="tel" class="ip2 ts1" id="uemail2" name="uemail2" required>
 						<select name="uemail3" class="ip2 ts1">
 							<option value="naver">직접입력</option>
 							<option value="naver">naver</option>
@@ -92,13 +92,15 @@
 					</li>
 					<li>
 						<label for="upostcode2">우편번호</label> 
-						<input type="text" class="ip2" id="upostcode2" name="upostcode2">
-						<input type="button" class="ip2" id="sb1" onclick="" value="검색하기">
+<!-- 						<input type="text" class="ip2" id="upostcode2" name="upostcode2"> -->
+<!-- 						<input type="button" class="ip2" id="sb1" onclick="DaumPostcode2" value="검색하기"> -->
+						<input type="text" id="sample6_postcode2" class="ip2"">
+						<input type="button" class="ip2" id="sb1" onclick="sample6_execDaumPostcode2()" value="검색하기"><br>
 					</li>
 					<li>
 						<label for="uaddr2">주소</label> 
-						<input type="text" class="ip1" id="uaddr2" name="uaddr2" ><br>
-						<input type="text" class="ip1" id="uaddrdetail2" name="uaddrdetail2">
+						<input type="text" id="sample6_address2" class="ip1"><br>
+						<input type="text" id="sample6_detailAddress2" class="ip1">
 					</li>
 					<li class="ip3">
 						<label for="utelephone3" class="ip4">일반전화</label>
@@ -111,7 +113,7 @@
 							<option value="">018</option>
 						</select>
 						<input type="tel" class="ip2 ts1" id="utelephone3" name="utelephone2" maxlength="4" required>
-						<input type="tel" class="ip2 ts1" id="utelephone4" name="utelephone2" maxlength="4" equired>
+						<input type="tel" class="ip2 ts1" id="utelephone4" name="utelephone2" maxlength="4" required>
 					</li>
 					<li class="ip3">
 						<label for="uphone3" class="ip4">휴대전화</label> 
@@ -121,7 +123,7 @@
 							<option value="">018</option>
 						</select>
 						<input type="tel" class="ip2 ts1" id="uphone3" name="uphone2" maxlength="4" required>
-						<input type="tel" class="ip2 ts1" id="uphone4" name="uphone2" maxlength="4" equired>
+						<input type="tel" class="ip2 ts1" id="uphone4" name="uphone2" maxlength="4" required>
 					</li>
 					<li>
 						<label for="uemail3">배송메시지</label> 
@@ -132,7 +134,8 @@
 			<h3 class="sub2">결제 방식</h3>
 			<form action="" method="post" class="pay1">
 				<input type="checkbox" id="pay2">
-				<label for="pay2">&nbsp;포인트 결제</label>
+				<label for="pay2" class="pay3">&nbsp;포인트 결제</label>
+				<input type="button" class="pp1" onclick="" value="포인트 잔액"><br>
 			</form>
 			<div class="text5">
 				<p>최소 결제 가능 금액은 결제 금액에서 배송비를 제외한 금액입니다.</p>

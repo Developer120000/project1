@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="qcontainer">
+		<div class="qwrapper">
+			<h3 class="Q & A">쇼핑백</h3>
+			<ul class="sbag">
+				<li class="s1">NO</li>
+				<li class="s1">SUBJECT</li>
+				<li class="s1">CONTENT</li>
+				<li class="s1">NAME</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
