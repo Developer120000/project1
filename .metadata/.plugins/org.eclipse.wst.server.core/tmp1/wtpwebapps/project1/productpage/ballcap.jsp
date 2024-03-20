@@ -12,6 +12,7 @@
 <script src="../js/header.js" defer></script>
 <link rel="stylesheet" href="../css/ballcap.css">
 <script src="../js/product.js" defer></script>
+<link rel="stylesheet" href="../css/footer.css">
 <!-- <script defer src="js 파일 위치"></script> -->
 </head>
 <body>
@@ -35,8 +36,8 @@
 				<i class="fa-solid fa-heart heart2"></i>
 				<img src="../img/ballcap/cap1-1.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
+					<span class="cname">ICT logo cap gray</span>
+					<span class="cprice">159000</span>
 				</div>
 			</div>
 			<div class="citem">
@@ -44,130 +45,130 @@
 				<i class="fa-solid fa-heart heart2"></i>
 				<img src="../img/ballcap/cap2-1.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
+					<span class="cname">ICT logo cap pink</span>
+					<span class="cprice">159000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap3-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">star damage cap</span>
+					<span class="cprice">119000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap4-1.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">YY cap pink</span>
+					<span class="cprice">89000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap5-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">YY cap stone</span>
+					<span class="cprice">89000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap6-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">YY cap Charcoal</span>
+					<span class="cprice">89000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap7-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">PABLO cap black</span>
+					<span class="cprice">99000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap8-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">start cap green</span>
+					<span class="cprice">89000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap9-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">Ad logo cap</span>
+					<span class="cprice">69000</span>
+				</div>
+			</div>
+			<div class="citem">
+				<i class="fa-regular fa-heart heart"></i>
+				<i class="fa-solid fa-heart heart2"></i>
+				<img src="../img/ballcap/cap10-2.jpg" class="cimg">
+				<div class="ctext">
+					<span class="cname">B cap green</span>
 					<span class="cprice">79000</span>
 				</div>
 			</div>
 			<div class="citem">
 				<i class="fa-regular fa-heart heart"></i>
 				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap6-1.jpg" class="cimg">
+				<img src="../img/ballcap/cap11-2.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
+					<span class="cname">B cap navy</span>
 					<span class="cprice">79000</span>
 				</div>
 			</div>
 			<div class="citem">
 				<i class="fa-regular fa-heart heart"></i>
 				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap1-1.jpg" class="cimg">
+				<img src="../img/ballcap/cap12-2.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
+					<span class="cname">B cap brown</span>
 					<span class="cprice">79000</span>
 				</div>
 			</div>
 			<div class="citem">
 				<i class="fa-regular fa-heart heart"></i>
 				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap2-1.jpg" class="cimg">
+				<img src="../img/ballcap/cap13-2.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
+					<span class="cname">Check pattern cap blue</span>
+					<span class="cprice">89000</span>
 				</div>
 			</div>
 			<div class="citem">
 				<i class="fa-regular fa-heart heart"></i>
 				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap6-1.jpg" class="cimg">
+				<img src="../img/ballcap/cap14-2.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
+					<span class="cname">Check pattern cap brown</span>
+					<span class="cprice">89000</span>
 				</div>
 			</div>
 			<div class="citem">
 				<i class="fa-regular fa-heart heart"></i>
 				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap1-1.jpg" class="cimg">
+				<img src="../img/ballcap/cap15-1.jpg" class="cimg">
 				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
+					<span class="cname">O logo cap</span>
+					<span class="cprice">69000</span>
 				</div>
 			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap2-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap6-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap1-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap2-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap6-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap1-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap2-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			<div class="citem">
-				<i class="fa-regular fa-heart heart"></i>
-				<i class="fa-solid fa-heart heart2"></i>
-				<img src="../img/ballcap/cap6-1.jpg" class="cimg">
-				<div class="ctext">
-					<span class="cname">ICT logo cap</span>
-					<span class="cprice">79000</span>
-				</div>
-			</div>
-			
-			
 		</div>
-	</section>		
+	</section>	
+<%@ include file="footer.jsp" %>
+	
 </body>
 </html>

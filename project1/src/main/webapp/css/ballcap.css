@@ -20,7 +20,6 @@
     }
 .newsslide {
     display: none;
-    
 }
 .sortform{
 	display: flex;
@@ -36,27 +35,23 @@
 .sort:focus {
   outline: 0;
   border: 0;
-/*   border: none; */
-/*   outline: none; */
 }
 .citem{
 	display: flex;
 	width: 33.33%;
 	border: 1px solid black;
 	border-right: none;
-/* 	border-collapse: collapse; */
 	flex-direction: column;
 }
-
 .cimg{
 	 max-width: 75%;
 	 max-height: 85%;
 	 margin: 0 auto;
 /* 	 border-radius: 50%; */
-	 border-top-left-radius: 75%;
+	 border-top-left-radius: 65%;
 	 border-top-right-radius: 30%;
 	 border-bottom-left-radius: 30%;
-	 border-bottom-right-radius: 75%;
+	 border-bottom-right-radius: 65%;
 }
 
 .heart{
