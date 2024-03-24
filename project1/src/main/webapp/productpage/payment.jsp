@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="../css/payment.css">
 <script src="../js/payment.js" defer></script>
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 	<div class="pcontainer">
@@ -150,5 +151,6 @@
 			</p>
 		</div>
 	</div>
+<%@ include file="footer.jsp" %>
 </body>
 </html>

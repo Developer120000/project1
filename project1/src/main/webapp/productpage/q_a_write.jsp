@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../css/header.css">
 <script src="../js/header.js" defer></script>
 <link rel="stylesheet" href="../css/q_a_write.css">
+<link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 	<div class="qawritercontainer">
@@ -42,5 +43,6 @@
 		</div>
 		</div>
 	</div>
+<%@ include file="footer.jsp" %>
 </body>
 </html>
