@@ -27,15 +27,16 @@
 		</div>
 		<div class="text_box">
 			<ul >
-				<li><a href="#" class="a_qa">Q/A</a></li>
+				<li><a href="#" class="a_qa">Q&A</a></li>
+				<li><a href="#" class="a_qa">FAQ</a></li>
 				<li><a href="#" class="a_bp">불편사항</a></li> 
 				<li>AGREEMENT</li> 
 				<li>PRIVACY POLICY</li> 
 			</ul>
 		</div>
 		<div class="btn_images">
-			<a href="#"><img class="btn_1" src="../img/bt_insta.png"></a>
-			<a href="#"><img class="btn_1" src="../img/bt_kakao.png"></a>
+			<a href="#"><img class="btn_1" src="../image/bt_insta.png"></a>
+			<a href="#"><img class="btn_1" src="../image/bt_kakao.png"></a>
 		</div>
 	</footer>
 </body>

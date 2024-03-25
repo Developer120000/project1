@@ -2,32 +2,54 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;}
 #text_list{
 	display: flex;
-/* 	padding: 20px; */
+	bottom: 0;
+	padding: 5px;
+	height:246.67px; /* footer 높이값 */
+	position:relative;
+	transform : translateY(-100%);
 	text-align: left;
 	justify-content: space-around;
 	width: 100%;
-    border-top: 1px solid black;
-}
-.text_box {
-	overflow-x: auto;
-	overflow-y: hidden;
+    border-top: 1px solid gray;
+    
 }
 
+/* 미디어 쿼리 */
+/* @media screen and (max-width: 450px) {
+    #text_list {
+        padding: 10px; 화면 크기가 작아질 때 여백을 줄입니다.
+        size: 1rm;
+    }
+} */
+.text_box{
+	display: flex;
+	padding: 1rem;
+}
+.text_box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 .text_box li{
+	display: flex;
 	list-style-type: none;
 	padding: 0 auto; 
 	margin: 20px;
 	width: 100%;
 }
 
-.a_qa .a_bp{
+.text_box a{
 	text-decoration: none;
 	color: black;
-	
 }
+
+
+
 .btn_images {
+	display: flex;
 	list-style-type: none;
+	padding: 1rem;
 	margin-top: 1rem;
 	margin-left: 0.5rem;
 }
